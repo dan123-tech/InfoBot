@@ -1,0 +1,107 @@
+<aiml  version="2.0">
+	<category>
+		<pattern>*</pattern>
+		<template>Imi pare rau dar nu v am inteles! Puteti sa mai repetati odata?</template>
+	</category>
+	<category>
+		<pattern>Salut</pattern>
+		 <template>
+            <random>
+                <li>Salut <break/> Cu ce as putea sa va ajut?</li>
+                <li>Buna! <break/> Cu ce as putea sa va ajut?</li>
+                <li>Salutare! <break/> Cu ce as putea sa va ajut?</li> 
+            </random>
+           <reply>
+              <text>Subprograme</text>
+              <postback>SUBPROGRAME</postback>
+          </reply>
+          <reply>
+              <text>Recursivitate</text>
+              <postback>"RECURSIVITATE</postback>
+          </reply>
+          <reply>
+              <text>Structuri</text>
+              <postback>STRUCTURI</postback>
+          </reply>
+        </template>
+	</category>
+	<category>
+	    <pattern></pattern>
+	</category>
+    	<category>
+	        <pattern>Cum te numesti?</pattern>
+	        <template>Ma numesc MathBot!</template>
+    	</category>
+	
+	    
+	   <category>
+	        <pattern> Care este data ta de nastere? *</pattern>
+	        <template>Am fost creat pe data de 16 mai 2021</template>
+	   </category>
+	   
+	<category>
+		<pattern>Buna</pattern>
+		 <template>
+            <random>
+                <li>Salut <break/> Cu ce as putea sa va ajut?</li>
+                <li>Buna! <break/> Cu ce as putea sa va ajut?</li>
+                <li>Salutare! <break/> Cu ce as putea sa va ajut?</li> 
+            </random>
+           <reply>
+              <text>Subprograme</text>
+              <postback>SUBPROGRAME</postback>
+          </reply>
+          <reply>
+              <text>Recursivitate</text>
+              <postback>"RECURSIVITATE</postback>
+          </reply>
+          <reply>
+              <text>Structuri</text>
+              <postback>STRUCTURI</postback>
+          </reply>
+        </template>
+	</category>
+	
+	
+	
+	
+	
+	
+	<category>
+		<pattern>Subprograme</pattern>
+		<template>
+			 Un subprogram este o secventa de instructiuni care poate fi apelata din programul principal sau dintr-un alt subprogram.In limbajul de asamblare un subprogram nu este separat strict de restul programului, tot asa cum nu sunt separate instructiunile de date.
+		</template>
+	</category>
+	<category>
+		<pattern>Ce este un subprogram?</pattern>
+		<template>
+			 Un subprogram este o secventa de instructiuni care poate fi apelata din programul principal sau dintr-un alt subprogram.In limbajul de asamblare un subprogram nu este separat strict de restul programului, tot asa cum nu sunt separate instructiunile de date.
+		</template>
+	</category>
+	
+	
+	
+	<category>
+	    <pattern>Recursivitate</pattern>
+	    <template>
+	  Procesul recursiv este procesul care, în timpul execuţiei, generează apariţia unor procese identice, aflate în legătură directă cu procesul ce le generează.Un proces poate fi descris printr-un subprogram.
+	    </template>
+	</category>
+	
+	
+<!--	<category>
+	    <pattern>Structuri</pattern>
+	    <template>
+	 Sintaxa generală a declarării unui tip de date struct este următoarea: <break/>  
+struct [NUME_STRUCTURĂ] { <break/>  
+[TIP1 NUME_CÂMP[, NUME_CÂMP[, ..]]; <break/>  
+[TIP2 NUME_CÂMP[, NUME_CÂMP[, ..]]; <break/>  
+... <break/>  
+} [LISTA DE VARIABILE];
+
+	    </template>
+	</category>-->
+	
+	
+</aiml>

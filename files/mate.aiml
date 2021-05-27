@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<topic name="structuri" >
+    <pattern>Structuri</pattern>
+    <template>
+        forma unei structuri
+    </template>
+</topic>
+    
+    
+<!--    
+<topic name="Ecuatii">
+    <category>
+        <pattern>*</pattern>
+        <template>
+            <think>
+                <condition name="subdomeniu">
+                    <li value="Ecuatii de gradul I">
+                        
+                    </li>
+                    
+                </condition>
+            </think>
+        </template>
+    </category>
+   
+    
+    
+</topic>--> 
+</aiml>
